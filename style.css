@@ -48,11 +48,11 @@ nav a:nth-child(2){
 
 #circle{
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     background-image: url(https://images.unsplash.com/photo-1491147334573-44cbb4602074?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
     background-size: cover;
     border-radius: 50%;
@@ -64,16 +64,16 @@ nav a:nth-child(2){
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     background-color: rgb(255, 255, 255);
 }
 
 #smcircle img{
     position: absolute;
-    top: 20%;
-    left: -50%;
-    width: 700px;
+    top: 0%;
+    left: -60%;
+    width: 500px;
 }
 
 #vsmcircle{
@@ -114,6 +114,7 @@ nav a:nth-child(2){
 #right{
     width: 30%;
     height: 100%;
+    overflow: auto;
     padding: 35px 40px;
     color: white;
     background-color: #222;
